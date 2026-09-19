@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Curio Privacy Policy</title>
+<title>Curily</title>
 <style>
   :root {
     color-scheme: light dark;
@@ -29,61 +29,43 @@
     line-height: 1.6;
   }
   main {
-    max-width: 680px;
+    max-width: 480px;
     margin: 0 auto;
-    padding: 48px 20px 80px;
+    padding: 64px 20px 80px;
+    text-align: center;
   }
   h1 {
-    font-size: 1.6em;
-    margin-bottom: 4px;
+    font-size: 1.8em;
+    margin-bottom: 8px;
   }
-  .updated {
+  p {
     color: var(--muted);
-    font-size: 0.9em;
     margin-bottom: 2em;
   }
-  h2 {
-    font-size: 1.1em;
-    margin-top: 2em;
-    border-top: 1px solid var(--rule);
-    padding-top: 1.5em;
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
   }
-  ul { padding-left: 1.2em; }
-  a { color: inherit; }
+  a.link-card {
+    display: block;
+    border: 1px solid var(--rule);
+    border-radius: 12px;
+    padding: 16px;
+    color: inherit;
+    text-decoration: none;
+    font-weight: 600;
+  }
 </style>
 </head>
 <body>
 <main>
-  <h1>Curio Privacy Policy</h1>
-  <p class="updated">Last updated: September 17, 2026</p>
-
-  <p>Curio ("the app") is built to work fully offline by default. This policy explains what happens if you choose to enable optional features that involve a network connection.</p>
-
-  <h2>Data stored locally only, by default</h2>
-  <p>Your Brain Dates (research topics, notes, essays), streaks, and preferences are stored only on your device (via local app storage). We don't see this data unless you turn on account backup (below).</p>
-
-  <h2>If you sign in (optional account backup)</h2>
-  <p>Signing in is optional and adds cloud backup so your data survives a reinstall or new device. If you sign in with Apple or email, we store:</p>
-  <ul>
-    <li>Your email address and/or Apple-provided identifier, used only for authentication.</li>
-    <li>Your display name, Brain Date content (topics, notes, essays), and any photos you attach, mirrored to our database (hosted by Supabase, Inc.) so they can sync across your devices.</li>
-    <li>Row-level security ensures your account can only ever access your own data — no one else's, including us, can query it directly through the app.</li>
-  </ul>
-
-  <h2>Subscriptions</h2>
-  <p>Curio Pro subscriptions (Monthly/Yearly) are processed through Apple's App Store / Google Play Billing and managed via RevenueCat, our subscription infrastructure provider. RevenueCat receives purchase/transaction data (e.g., product purchased, renewal status) to verify your entitlement — never your payment details, which Apple/Google handle directly.</p>
-
-  <h2>What we don't do</h2>
-  <p>We don't use third-party advertising or analytics SDKs. We don't sell or share your data with data brokers.</p>
-
-  <h2>Deleting your data</h2>
-  <p>You can delete your account and all associated cloud data at any time from Settings → "Delete Account &amp; Data." This permanently removes your account, synced content, and uploaded photos. Data stored only locally on your device is removed by uninstalling the app.</p>
-
-  <h2>Children's privacy</h2>
-  <p>Curio is not directed at children under 13, and we do not knowingly collect data from children under 13.</p>
-
-  <h2>Contact</h2>
-  <p>Questions about this policy: <a href="mailto:support@curily.app">support@curily.app</a></p>
+  <h1>Curily</h1>
+  <p>Turn curiosity into a daily habit.</p>
+  <div class="links">
+    <a class="link-card" href="/privacy.html">Privacy Policy</a>
+    <a class="link-card" href="/support.html">Support</a>
+  </div>
 </main>
 </body>
 </html>
